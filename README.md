@@ -3,7 +3,7 @@
   - [1.1. Additioanl Agenda](#11-additioanl-agenda)
   - [1.2. Additioanl Resources](#12-additioanl-resources)
 
-## 1.1. Additioanl Agenda
+## 1.1. Additional Agenda
 
 -	Functions and modules
 -	File copy in a pipeline to azure file share
@@ -11,10 +11,10 @@
 -	CRON jobs
 -	Pipeline Parameters
 
-## 1.2. Additioanl Resources
+## 1.2. Additional Resources
 
 - [PowerShellTraining](https://github.com/raandree/PowerShellTraining)
-- [Markdown Guide](https://www.markdownguide.org/).
+- [Markdown Guide](https://www.markdownguide.org/)
   - [Pandoc](https://pandoc.org/)
 
 ```powershell
