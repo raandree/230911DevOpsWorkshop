@@ -86,4 +86,3 @@ function F1 {
 function F2 {
     Write-Host Hello World
 }
-#Get-Item -Path C:\Windows, 'C:\Program Files' | Get-SmallFile
