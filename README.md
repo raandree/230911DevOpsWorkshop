@@ -1,8 +1,3 @@
-# 1. DevOps Workshop (11.09.2023)
-- [1. DevOps Workshop (11.09.2023)](#1-devops-workshop-11092023)
-  - [1.1. Additional Agenda](#11-additional-agenda)
-  - [1.2. Additional Resources](#12-additional-resources)
-
 ## 1.1. Additional Agenda
 
 -	Functions and modules
