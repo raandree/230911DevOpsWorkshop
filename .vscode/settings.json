@@ -1,1 +1,5 @@
-{}
+{
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.newLineAfterOpenBrace": true,
+    "powershell.codeFormatting.openBraceOnSameLine": false
+}

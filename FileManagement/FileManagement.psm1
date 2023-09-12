@@ -1,4 +1,5 @@
-﻿function Get-SmallFile {
+﻿function Get-SmallFile
+{
     <#
             .SYNOPSIS
             Finds small files in a specified folder
@@ -42,7 +43,8 @@
         [switch]$AddSummary
     )
 
-    begin {
+    begin
+    {
         $summary = [pscustomobject]@{
             Path      = 'Summary'
             FileCount = 0
@@ -51,38 +53,44 @@
         }
     }
     
-    process {
+    process
+    {
         $Path = Resolve-Path -Path $Path
-        
-        foreach ($p in $Path) {
+
+        foreach ($p in $Path)
+        {
             $result = Get-ChildItem -Path $p -File | 
             Where-Object -FilterScript { $_.Length -le $MaxSize } | 
             Measure-Object -Property Length -Average -Sum
-        
+
             [pscustomobject]@{
-                Path         = $p
-                FileCount    = $result.Count
-                Size         = $result.Sum
-                MaxSize      = $MaxSize
-                AverageSize  = [System.Math]::Round($result.Average, 2)
+                Path        = $p
+                FileCount   = $result.Count
+                Size        = $result.Sum
+                MaxSize     = $MaxSize
+                AverageSize = [System.Math]::Round($result.Average, 2)
             }
-            
+
             $summary.FileCount += $result.Count
             $summary.Size += $result.Sum
         }
     }
-    
-    end {
-        if ($AddSummary) {
+
+    end
+    {
+        if ($AddSummary)
+        {
             $summary
         }
     }
 }
 
-function F1 {
+function F1
+{
     Get-Date
 }
 
-function F2 {
+function F2
+{
     Write-Host Hello World
 }
