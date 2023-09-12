@@ -33,7 +33,7 @@
     #>
     
     param(
-        [Parameter(Mandatory, ValueFromPipeline)]
+        [Parameter(Mandatory = $false, ValueFromPipeline)]
         [ValidateScript( { Test-Path -Path $_ -PathType Container })]
         [string[]]$Path,
                 
