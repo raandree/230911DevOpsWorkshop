@@ -14,9 +14,10 @@
 - [AutomatedLab](https://automatedlab.org/en/latest/)
 
 ## Coding guidelines
-- [THE CURIOUS CASE OF $NULL](https://evotec.xyz/the-curious-case-of-null-should-be-on-the-left-side-of-equality-comparisons-psscriptanalyzer/#:~:text=The%20only%20way%20to%20reliably,cast%20to%20other%20scalar%20types)
+- [THE CURIOUS CASE OF $NULL](https://evotec.xyz/the-curious-case-of-null-should-be-on-the-left-side-of-equality-comparisons-psscriptanalyzer/#:~:text=The%20only%20way%20to%20reliably,cast%20to%20other%20scalar%20types).
+- [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)
 
-PSScriptAnalyzer
+
 
 One settings file per VSCode workspace (settings.json)
 
